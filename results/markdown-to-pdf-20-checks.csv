@@ -1,0 +1,12 @@
+tool,score,of,tested,misses
+markdownwise,20,20,2026-11-03,"None. We wrote this test, and fixed the six things our own converter failed (task lists, footnotes, maths, definition lists, bare addresses, front matter) before testing the others."
+md2pdf.my,14,20,2026-11-03,"Table alignment, maths, definition lists and curly quotes; front matter printed as a heading. Page numbers are off unless you tick them in its export options."
+markdowntopdf.com,13,20,2026-11-19,"Footnotes, definition lists, curly quotes and page numbers; long code lines cut off; front matter printed as a heading. Scored on the file without its script line, so the raw HTML check counts as missed."
+PDFCreator Online,12,20,2026-11-19,"Maths (printed as LaTeX source), code colours, definition lists, curly quotes and page numbers; long code lines cut off; front matter printed. Scored on the file without its script line, so the raw HTML check counts as missed."
+md2file.com,11,19,2026-11-19,"Bold italic text dropped, no table alignment, block quotes unmarked, Japanese and an arrow shown as empty boxes; no definition lists, curly quotes or page numbers; front matter printed. Its PDF fitted our long table on one page, so the repeated header could not be checked."
+CodeShack,10,20,2026-11-03,"Its Download PDF button saves pictures of the pages, so that PDF's text can't be selected or searched (its print option, through your browser, keeps the text); long code lines cut off; no table alignment."
+Syncfusion,9,20,2026-11-03,"Numbered lists printed as bullets, task boxes garbled, no footnotes, maths or page numbers; front matter printed."
+code-format.com,4,20,2026-11-04,"Prints most Markdown marks as they are (task boxes, footnotes, maths), loses Japanese, and shows a random code as the title. It refused the file until we removed the line that tests raw HTML."
+online-convert.com,2,20,2026-11-03,"Prints the Markdown source as plain text, # and ** marks included."
+LightPDF,,,2026-11-03,Not scored. Asks you to log in before you can download the PDF.
+linangdata,,,2026-11-03,Not scored. Makes no file: it opens your browser's print window.

@@ -1,0 +1,9 @@
+tool,overall_percent,heads_and_feet_of_9,columns_of_11,tables_of_21,baseline_of_9,tested,note
+markdownwise,97.2,8,11,21,9,2026-11-04,"Re-run on 4 November after fixing what this test showed up. On 3 November: 72.8%, with 6 clutter, 9 column and 9 table checks."
+Marker (open source),96.4,9,11,18,9,2026-11-03,"Not a website: a program you install, with heavy AI models. Added for reference. Version 1.6.2 on a laptop CPU, about 13 seconds a page."
+pdfmarkdown.app,57.0,2,9,5,9,2026-11-03,"Runs in your browser, no account."
+CloudConvert,52.1,0,10,6,8,2026-11-03,"Didn't convert one of the nine files, which counts as failed."
+PDF24,50.6,0,5,12,9,2026-11-03,
+iLovePDF,,,,,,2026-11-03,"Not scored. One free conversion, then it asks you to sign up for Premium. On that one file it passed 0 of 5 checks; markdownwise passed 4."
+AnythingMD,,,,,,2026-11-03,Not scored. Asks you to create an account before it converts anything.
+Vertopal,,,,,,2026-11-03,"Not scored. Its upload box didn't accept our test upload, so it wasn't tested."

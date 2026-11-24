@@ -1,0 +1,16 @@
+tool,folder,overall,text,tables,headings,version,run_date,in_benchmark_table
+OpenDataLoader hybrid,opendataloader-hybrid,0.9066,0.9337,0.9276,0.8208,2.2.1,2026-04-06,yes
+Nutrient,nutrient,0.8851,0.9250,0.7081,0.8190,1.0.1,2026-04-30,yes
+Docling,docling,0.8817,0.8984,0.8871,0.8240,2.84.0,2026-04-06,yes
+OpenDataLoader hybrid (hydrogen),opendataloader-hybrid-hydrogen,0.8768,0.9260,0.7958,0.7685,2.2.1,2026-04-08,no
+markdownwise,,0.8732,0.9062,0.8254,0.7931,,2026-11-21,no
+Marker,marker,0.8671,0.8898,0.8076,0.8190,1.10.1,2026-01-06,yes
+OpenDataLoader hybrid (helium),opendataloader-hybrid-helium,0.8451,0.8789,0.8068,0.7549,0.2.0-SNAPSHOT,2026-04-17,no
+Unstructured (hi-res),unstructured-hires,0.8414,0.9038,0.5883,0.7486,0.17.2,2026-04-06,yes
+EdgeParse,edgeparse,0.8370,0.8938,0.7174,0.7061,0.3.0,2026-04-06,yes
+MinerU,mineru,0.8353,0.8574,0.8730,0.7588,2.7.0,2026-01-06,yes
+OpenDataLoader,opendataloader,0.8312,0.9023,0.4887,0.7395,2.2.1,2026-04-06,yes
+PyMuPDF4LLM,pymupdf4llm,0.7347,0.8852,0.4010,0.4237,0.2.0,2025-11-27,yes
+Unstructured,unstructured,0.6858,0.8818,0.0000,0.3877,0.17.2,2026-04-06,yes
+MarkItDown,markitdown,0.5885,0.8437,0.2729,0.0000,0.1.5,2026-04-06,yes
+LiteParse,liteparse,0.5756,0.8660,0.0000,0.0000,1.2.1,2026-04-06,yes
