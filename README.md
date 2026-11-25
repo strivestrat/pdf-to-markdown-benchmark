@@ -42,13 +42,14 @@ Data: [results/opendataloader-bench-200.csv](results/opendataloader-bench-200.cs
 
 ## 2. Free online converters on 9 pages
 
-Nine pages from [olmOCR-bench](https://huggingface.co/datasets/allenai/olmOCR-bench): three with running heads and footers, three in columns, three with tables. Each tool converted them once, on 3 November 2026, and we scored the results with olmOCR-bench's checker. The overall score is the mean of the four groups.
+Nine pages from [olmOCR-bench](https://huggingface.co/datasets/allenai/olmOCR-bench): three with running heads and footers, three in columns, three with tables. Each tool converted them once, on 3 November 2026 (pdf2md.morethan.io on 19 November), and we scored the results with olmOCR-bench's checker. The overall score is the mean of the four groups.
 
 | Tool | Overall | Heads and feet (9) | Columns (11) | Tables (21) | Baseline (9) |
 |---|---|---|---|---|---|
 | markdownwise (ours), second run | 97.2% | 8 | 11 | 21 | 9 |
 | Marker 1.6.2, run locally | 96.4% | 9 | 11 | 18 | 9 |
 | pdfmarkdown.app | 57.0% | 2 | 9 | 5 | 9 |
+| pdf2md.morethan.io | 54.3% | 4 | 8 | 0 | 9 |
 | CloudConvert | 52.1% | 0 | 10 | 6 | 8 |
 | PDF24 | 50.6% | 0 | 5 | 12 | 9 |
 
